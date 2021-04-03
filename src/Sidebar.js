@@ -65,7 +65,7 @@ const user = useSelector(state => state.user)
             </div>
             </div>
             <div className="chat">
-            <div onClick={createchat}><h2>Add New Chat</h2></div>
+            <div className="addnew" onClick={createchat}><h2>Add New Chat</h2></div>
             {rooms.map(room=>(
                 <SidebarChat key ={room.id} id={room.id}
                 name={room.data.name}/>
