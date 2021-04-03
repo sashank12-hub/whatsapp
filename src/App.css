@@ -1,0 +1,18 @@
+.app{
+ 
+  height: 100vh;
+  place-items:center;
+  
+  
+
+}
+.app_body{
+  display: flex  !important;
+  flex-direction: row;
+  height: 90vh;
+  width: 90vw;
+  
+  margin-top: -50px;
+  box-shadow:  -1px 4px 20px -6px rgba(0,0,0,0.75);
+  
+}
